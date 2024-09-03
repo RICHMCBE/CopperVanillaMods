@@ -2,33 +2,10 @@
 
 namespace refaltor\coppervanillamods\utils;
 
-use customiesdevs\customies\item\component\DiggerComponent;
-use pocketmine\block\BlockToolType;
-use pocketmine\block\VanillaBlocks;
-use pocketmine\item\Durable;
-use pocketmine\item\Item;
-use pocketmine\item\Sword;
-use pocketmine\item\TieredTool;
 use refaltor\coppervanillamods\Main;
 
 final class Utils
 {
-    public static function getDiggerComponent(Durable $item, int $speed): ?DiggerComponent {
-        $blocks = VanillaBlocks::getAll();
-
-        $component = new DiggerComponent();
-        $found = false;
-
-        foreach ($blocks as $constant => $block) {
-            if ($block->getBreakInfo()->getToolType() == $item->getBlockToolType()) {
-                $found = true;
-                $component->withBlocks($speed, $block);
-            }
-        }
-
-        return ($found === true ? $component : null);
-    }
-
 
     public static function callDirectory(string $directory, callable $callable): void
     {

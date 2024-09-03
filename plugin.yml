@@ -1,7 +1,7 @@
 name: CopperVanillaMods
 main: refaltor\coppervanillamods\Main
 author: refaltor
-version: 1.0.0
+version: Refactor - 0.0.1
 api: 5.0.0
 depend:
   - Customies

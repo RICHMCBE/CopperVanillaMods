@@ -24,11 +24,7 @@ declare(strict_types=1);
 namespace refaltor\coppervanillamods\player;
 
 use pocketmine\block\Block;
-use pocketmine\block\BlockBreakInfo;
-use pocketmine\data\bedrock\EnchantmentIdMap;
-use pocketmine\data\bedrock\EnchantmentIds;
 use pocketmine\entity\animation\ArmSwingAnimation;
-use pocketmine\item\Tool;
 use pocketmine\math\Facing;
 use pocketmine\math\Vector3;
 use pocketmine\network\mcpe\protocol\LevelEventPacket;

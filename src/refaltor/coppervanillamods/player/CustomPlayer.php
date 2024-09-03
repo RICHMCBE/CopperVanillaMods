@@ -3,8 +3,6 @@
 namespace refaltor\coppervanillamods\player;
 
 use pocketmine\block\VanillaBlocks;
-use pocketmine\data\bedrock\EnchantmentIdMap;
-use pocketmine\data\bedrock\EnchantmentIds;
 use pocketmine\entity\animation\ArmSwingAnimation;
 use pocketmine\event\player\PlayerExhaustEvent;
 use pocketmine\event\player\PlayerInteractEvent;
